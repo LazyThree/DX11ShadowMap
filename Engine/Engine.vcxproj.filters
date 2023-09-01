@@ -168,6 +168,18 @@
     <Text Include="data\cube.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="data\bath.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="data\ground.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="data\wall.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="data\water.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="data\ice.dds">

@@ -230,9 +230,13 @@
     <ClInclude Include="verticalblurshaderclass.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="data\bath.txt" />
     <Text Include="data\cube.txt" />
+    <Text Include="data\ground.txt" />
     <Text Include="data\plane01.txt" />
     <Text Include="data\sphere.txt" />
+    <Text Include="data\wall.txt" />
+    <Text Include="data\water.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="data\ice.dds" />

@@ -115,7 +115,7 @@ bool GraphicsClass::Initialize(int screenWidth, int screenHeight, HWND hwnd)
 	}
 
 	// Initialize the ground model object.
-	result = m_GroundModel->Initialize(m_D3D->GetDevice(), m_D3D->GetDeviceContext(), "../Engine/data/plane01.txt", L"../Engine/data/metal001.dds");
+	result = m_GroundModel->Initialize(m_D3D->GetDevice(), m_D3D->GetDeviceContext(), "../Engine/data/ground.txt", L"../Engine/data/metal001.dds");
 	if(!result)
 	{
 		MessageBox(hwnd, L"Could not initialize the ground model object.", L"Error", MB_OK);
@@ -544,8 +544,10 @@ bool GraphicsClass::Frame(float posX, float posY, float posZ, float rotX, float 
 
 
 	// Set the position of the camera.
-	m_Camera->SetPosition(posX, posY, posZ);
+	m_Camera->SetPosition(posX, posY+2.0, posZ);
 	m_Camera->SetRotation(rotX, rotY, rotZ);
+
+
 
 	// Update the position of the light each frame.
 	lightPositionX += 0.05f;

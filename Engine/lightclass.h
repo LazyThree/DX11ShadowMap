@@ -33,7 +33,7 @@ public:
 
 	void GenerateViewMatrix();
 	void GenerateProjectionMatrix(float, float);
-
+	
 	void GetViewMatrix(XMMATRIX&);
 	void GetProjectionMatrix(XMMATRIX&);
 

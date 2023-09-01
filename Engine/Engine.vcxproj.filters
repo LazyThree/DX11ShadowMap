@@ -158,4 +158,26 @@
     <FxCompile Include="verticalblur_ps.hlsl" />
     <FxCompile Include="verticalblur_vs.hlsl" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\sphere.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="data\plane01.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="data\cube.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\ice.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\metal001.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\wall01.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
